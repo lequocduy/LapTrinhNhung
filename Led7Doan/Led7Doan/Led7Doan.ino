@@ -17,11 +17,19 @@ void KHONG(){
   digitalWrite(f,HIGH);
   digitalWrite(g,LOW);
 }
-void MOT(){
-  
+void TAM(){
+  digitalWrite(a,HIGH);
+  digitalWrite(b,HIGH);
+  digitalWrite(c,HIGH);
+  digitalWrite(d,HIGH);
+  digitalWrite(e,HIGH);
+  digitalWrite(f,HIGH);
+  digitalWrite(g,HIGH);
 }
 
 void loop() {
   KHONG();
-
+  delay(1000);
+  TAM();
+  delay(1000);
 }
