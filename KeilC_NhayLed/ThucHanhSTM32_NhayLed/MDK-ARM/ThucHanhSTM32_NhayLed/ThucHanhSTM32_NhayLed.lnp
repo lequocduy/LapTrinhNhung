@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"thuchanhstm32_nhayled\startup_stm32f401xe.o"
+"thuchanhstm32_nhayled\main.o"
+"thuchanhstm32_nhayled\stm32f4xx_it.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_msp.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_tim.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_tim_ex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_rcc.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_rcc_ex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_flash.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_flash_ex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_gpio.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_dma_ex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_dma.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_pwr.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_pwr_ex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_cortex.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal.o"
+"thuchanhstm32_nhayled\stm32f4xx_hal_exti.o"
+"thuchanhstm32_nhayled\system_stm32f4xx.o"
+--strict --scatter "ThucHanhSTM32_NhayLed\ThucHanhSTM32_NhayLed.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThucHanhSTM32_NhayLed.map" -o ThucHanhSTM32_NhayLed\ThucHanhSTM32_NhayLed.axf
