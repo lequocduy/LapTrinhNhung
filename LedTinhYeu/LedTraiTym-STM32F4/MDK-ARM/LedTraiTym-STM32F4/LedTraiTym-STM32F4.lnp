@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"ledtraitym-stm32f4\startup_stm32f401xe.o"
+"ledtraitym-stm32f4\main.o"
+"ledtraitym-stm32f4\stm32f4xx_it.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_msp.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_tim.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_tim_ex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_rcc.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_rcc_ex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_flash.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_flash_ex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_flash_ramfunc.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_gpio.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_dma_ex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_dma.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_pwr.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_pwr_ex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_cortex.o"
+"ledtraitym-stm32f4\stm32f4xx_hal.o"
+"ledtraitym-stm32f4\stm32f4xx_hal_exti.o"
+"ledtraitym-stm32f4\system_stm32f4xx.o"
+--strict --scatter "LedTraiTym-STM32F4\LedTraiTym-STM32F4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LedTraiTym-STM32F4.map" -o LedTraiTym-STM32F4\LedTraiTym-STM32F4.axf
