@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"thuchanhstm_ngatngoai\startup_stm32f401xe.o"
+"thuchanhstm_ngatngoai\main.o"
+"thuchanhstm_ngatngoai\stm32f4xx_it.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_msp.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_tim.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_tim_ex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_rcc.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_rcc_ex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_flash.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_flash_ex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_flash_ramfunc.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_gpio.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_dma_ex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_dma.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_pwr.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_pwr_ex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_cortex.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal.o"
+"thuchanhstm_ngatngoai\stm32f4xx_hal_exti.o"
+"thuchanhstm_ngatngoai\system_stm32f4xx.o"
+--strict --scatter "ThucHanhSTM_NgatNgoai\ThucHanhSTM_NgatNgoai.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThucHanhSTM_NgatNgoai.map" -o ThucHanhSTM_NgatNgoai\ThucHanhSTM_NgatNgoai.axf
